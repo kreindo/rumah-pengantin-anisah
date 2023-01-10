@@ -72,16 +72,16 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: -5px 0;
 }
 
 #header.header-scrolled {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 #header .logo {
-  font-size: 32px;
+  /* font-size: 200px; */
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -94,7 +94,9 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  /* height: 820px;
+  width: 1200px; */
+  max-height: 100px;
 }
 
 @media (max-width: 991px) {
@@ -291,7 +293,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #fef0e7;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -621,27 +623,6 @@ section {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  padding-top: 0;
-}
-
-.counts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #16df7e;
-  font-weight: 700;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-}
 
 /*--------------------------------------------------------------
 # Services
@@ -649,7 +630,7 @@ section {
 .services .icon-box {
   text-align: center;
   border: 1px solid #fff;
-  padding: 80px 20px;
+  padding: 15px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -798,7 +779,7 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #fef0e7;
   opacity: 1;
   border: 1px solid #16df7e;
 }
@@ -917,7 +898,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #fef0e7;
   opacity: 1;
   border: 1px solid #16df7e;
 }
@@ -1324,7 +1305,7 @@ section {
 }
 
 #footer .footer-top .social-links {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #footer .footer-top .social-links a {
