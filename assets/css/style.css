@@ -170,14 +170,14 @@ h6 {
   color: #5f687b;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid #cdd1d9;
+  border: 1px solid #16df7e;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  background: #206bfb;
+  background: #e0b958;
   color: #fff;
-  border-color: #206bfb;
+  border-color: #e0b958;
 }
 
 .navbar .dropdown ul {
@@ -369,14 +369,14 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 700;
   line-height: 56px;
   color: #3e4450;
 }
 
 #hero h2 {
-  color: #858ea1;
+  color: #49546a;
   margin: 10px 0 30px 0;
   font-size: 24px;
 }
@@ -396,8 +396,8 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #206bfb;
-  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+  background: #e8bf51;
+  box-shadow: 0 8px 28px #16df7e;
 }
 
 #hero .btn-watch-video {
@@ -919,7 +919,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #16df7e;
+  background: #089450;
   background-size: cover;
   padding: 60px 0;
 }
@@ -946,7 +946,7 @@ section {
   transition: 0.5s;
   margin-top: 10px;
   border: 2px solid #fff;
-  color: #fff;
+  color: #e8bf51;
 }
 
 .cta .cta-btn:hover {
