@@ -167,8 +167,9 @@ h6 {
   margin-left: 30px;
   border-radius: 4px;
   line-height: 1;
-  color: #5f687b;
+  color: white;
   font-size: 14px;
+  background: #16df7e;
   font-weight: 500;
   border: 1px solid #16df7e;
 }
@@ -937,28 +938,29 @@ section {
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
+  background: #ffd45c;
   border-radius: 4px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #e8bf51;
+  /* border: 2px solid rgb(5, 123, 26); */
+  color: rgb(1, 94, 15);
 }
 
 .cta .cta-btn:hover {
-  background: #206bfb;
-  border-color: #206bfb;
+  background: #ccff00 ;
+  /* border-color: #24f511; */
 }
 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #16df7e;
+  border-top: 3px solid #13864e;
   border-bottom: 3px solid #16df7e;
   padding: 30px;
   width: 100%;
